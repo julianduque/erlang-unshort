@@ -1,0 +1,14 @@
+{application, unshort,
+ [
+  {description, "URL Unshorter"},
+  {vsn, "1"},
+  {modules, [
+             unshort
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
