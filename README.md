@@ -1,5 +1,5 @@
 # Unshort
-An URL unshorter written in Erlang
+An URL unshortener written in Erlang
 
 ## Compile
 
