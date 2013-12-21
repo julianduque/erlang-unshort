@@ -1,4 +1,4 @@
-%% Simple URL unshorter
+%% Simple URL unshortener
 %% @author Julian Duque <julianduquej@gmail.com>
 %% @copyright 2013
 %% @version 0.0.1
