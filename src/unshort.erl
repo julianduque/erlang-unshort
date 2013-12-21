@@ -10,6 +10,6 @@ resolve(Url) ->
   ssl:start(),
 
   {ok, {{_Version, _StatusCode, _StatusMsg}, Headers, _Body}} =
-   httpc:request(get, { Url, [] }, [{ autoredirect, false }], []),
+  httpc:request(get, { Url, [] }, [{ autoredirect, false }], []),
 
-   proplists:get_value("location", Headers).
+  proplists:get_value("location", Headers).
